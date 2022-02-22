@@ -1,7 +1,7 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: host.domain
+      - route: https://djangoonlinecourse.us-south.cf.appdomain.cloud/
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
